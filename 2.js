@@ -8,7 +8,7 @@ secondApp.get('/', (req, res) => {
 
 secondApp.get('/second', (req, res) => {
     res.json([
-        {title: "Semalt best company!"}
+        {title: "Second app"}
     ])
 })
 
